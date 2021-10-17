@@ -30,9 +30,16 @@ def zad3():
 
 def zad4():
     poczatkowy_kapital = int(input('Podaj swój początkowy kapitał: '))
-    miesieczne_wplywy = int(input('Podaj swoje miesieczne wplywy:'))
-    okres_inwestowania = int(input('Podaj swoj okres inwestowania: '))
+    okres_lokaty = int(input('Podaj swoj okres inwestowania: '))
     koncowa = int(input('ile chcialbys na koniec uzyskac pieniedzy?: '))
+
+    lokata = poczatkowy_kapital*(1+ 0.02) ** (okres_lokaty)
+
+    print (lokata)
+    if koncowa > lokata:
+        print('Wychodzi mniejsza')
+    else:
+        print('Wychodzi wieksza')
 
 
 #Czesc 2
