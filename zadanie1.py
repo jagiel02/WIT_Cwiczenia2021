@@ -112,7 +112,15 @@ while True:
         continue
     else:
         break
+a = 24
+b = 36
+count = 0
 
+while (True):
+    count += 1
+    if count % a == 0 and count % b == 0:
+        print(count)
+        break
 
 
 
