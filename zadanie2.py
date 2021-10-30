@@ -21,20 +21,18 @@ print('lista max= ',max(lista[:4]),',', max(lista[:5]))
 
 #zad3
 
-lista1=[]
-i =1
-for i in range(2,13):
-    i = i+1
-    lista1.append(i)
-print('lista1 =',lista1)
-
 lista2=[]
-
+lista1=[]
 o = -1
+i = 2
 while True:
+    i = i + 1
+    lista1.append(i)
+    if len(lista1) == 11:
+        print('lista1 =', lista1)
     o = o + 1
     lista2.append(o)
-    if len(lista2) == 12:
+    if len(lista2) == 11:
         break
 print('lista2 =',lista2)
 
