@@ -1,3 +1,4 @@
 # WIT_Cwiczenia2021
-Python laboratorium Mikołaj Jagielak
+Zadania z przedmiotu "Pracowania programistyczna Python"
+
 
